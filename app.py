@@ -9,7 +9,7 @@ signal.signal(signal.SIGINT, lambda s, f: os._exit(0))
 
 @app.route("/")
 def generate_buzz():
-    
+    page = '<html><body><br><h1>'
     page += generator.generate_buzz()
     page += '</h1><hr><p>hard</p></body></html>'
     return page
