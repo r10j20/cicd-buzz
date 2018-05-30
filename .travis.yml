@@ -14,5 +14,5 @@ after_success:
   
 deploy:
   provider: heroku
-  api_key:
-    secure: "a56cf282-6ee5-4dbd-bfad-2f5ffcba0a45"
+  api_key: ...
+  app: enigmatic-ravine-38835
